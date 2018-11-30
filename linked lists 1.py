@@ -59,7 +59,7 @@ class LinkedList:
                 if node.next == None:
                     self.tail = node
                 old.next = node.next
-                break
+                #break
             old = node
             node = node.next
 
@@ -67,6 +67,8 @@ s_list = LinkedList()
 s_list.add_in_tail(n1)
 s_list.add_in_tail(n2)
 s_list.add_in_tail(Node(128))
+s_list.add_in_tail(Node(55))
+s_list.add_in_tail(Node(130))
 s_list.print_all_nodes()
 print("-----------------")
 
@@ -76,5 +78,5 @@ if nf is not None:
     print(nf.value)
 print("-----------")
 
-s_list.del_alone_node(128)
+s_list.del_alone_node(55)
 s_list.print_all_nodes()
