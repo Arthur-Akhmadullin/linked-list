@@ -78,3 +78,4 @@ print("-----------")
 
 s_list.del_alone_node(128)
 s_list.print_all_nodes()
+"ваываы"
