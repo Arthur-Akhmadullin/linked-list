@@ -59,7 +59,7 @@ class LinkedList:
                 if node.next == None:
                     self.tail = node
                 old.next = node.next
-                #break
+                break
             old = node
             node = node.next
 
